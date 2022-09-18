@@ -224,3 +224,15 @@ export const getFeaturedPosts = async () => {
 
   return result.posts;
 };
+
+export const submitArticle = async (obj) => {
+  const result = await fetch('/api/articles', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(obj),
+  });
+
+  return result.json();
+}

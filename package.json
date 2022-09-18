@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tiptap/react": "^2.0.0-beta.195",
+    "@tiptap/starter-kit": "^2.0.0-beta.195",
     "graphql": "^16.6.0",
     "graphql-request": "^5.0.0",
     "html-react-parser": "^3.0.4",
@@ -13,8 +15,11 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
     "react-multi-carousel": "^2.8.2",
-    "sass": "^1.54.9"
+    "sass": "^1.54.9",
+    "slate": "^0.82.1",
+    "slate-react": "^0.82.2"
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",

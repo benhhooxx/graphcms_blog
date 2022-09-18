@@ -11,3 +11,6 @@ export { default as FeaturedPostCard } from './FeaturedPostCard';
 export { default as FeaturedPosts } from './FeaturedPosts';
 export { default as EmptyCard } from './EmptyCard';
 export { default as Loader } from './Loader';
+export { default as Tiptap } from './Tiptap';
+export { default as CreatePost } from './CreatePost';
+export { default as SlateEditor } from './SlateEditor/SlateEditor';
